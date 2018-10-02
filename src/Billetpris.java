@@ -8,4 +8,9 @@ public class Billetpris {
     public double getBilletPris() {
         return billetPris;
     }
+
+    public double setBilletPris(double billetPris) {
+        this.billetPris = billetPris;
+        return billetPris;
+    }
 }

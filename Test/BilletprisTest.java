@@ -30,4 +30,18 @@ public class BilletprisTest {
         //1. Assert
         assertEquals(45.25, billetPris);
     }
+
+    @Test
+    void changeBilletPris(){
+        //billetPris = 78.98
+
+        //3. Setup
+        Billetpris billet = new Billetpris(12.45);
+
+        //2. Execution
+        double billetPris = billet.setBilletPris(78.98);
+
+        //1. Assert
+        assertEquals(78.98, billetPris);
+    }
 }
