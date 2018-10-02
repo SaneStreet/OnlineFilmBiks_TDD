@@ -30,4 +30,18 @@ class TitelTest {
         //1. Assert
         assertEquals("Test Me, Son", titel);
     }
+
+    @Test
+    void changeTitel(){
+        //titel = "I Have Changed"
+
+        //3. setup
+        Titel titel1 = new Titel("Not Changed");
+
+        //2. Execution
+        String titel = titel1.setTitel("I Have Changed");
+
+        //1. Assert
+        assertEquals("I Have Changed", titel);
+    }
 }
