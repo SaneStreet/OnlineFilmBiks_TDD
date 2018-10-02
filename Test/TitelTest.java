@@ -16,4 +16,18 @@ class TitelTest {
         //1. Assert
         assertEquals("Tester Jester", titel);
     }
+
+    @Test
+    void findTitel(){
+        //titel = "Test Me, Son"
+
+        //3. setup
+        Titel titel1 = new Titel("Test Me, Son");
+
+        //2. Execution
+        String titel = titel1.getTitel();
+
+        //1. Assert
+        assertEquals("Test Me, Son", titel);
+    }
 }
