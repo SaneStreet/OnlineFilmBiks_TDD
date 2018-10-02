@@ -4,14 +4,14 @@ Tests til OnlineFilmBiks (main):
 Skal kunne oprette: Titel objekt, Director objekt, Billetpris objekt
 
 Tests til FilmDirector:
-oprette en Director
-hente en Director
-ændre en Director
+oprette en Director - Done
+hente en Director - Done
+ændre en Director - Done
 
 Tests til FilmTitel:
-oprette en Titel
-hente en Titel
-ændre en Titel
+oprette en Titel - Done
+hente en Titel - Done
+ændre en Titel - Done
 
 Tests til FilmBilletpris:
 oprette en Billetpris
