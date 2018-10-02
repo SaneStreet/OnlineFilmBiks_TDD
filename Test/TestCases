@@ -1,7 +1,7 @@
 Test Cases for OnlineFilmBiks
 
 Tests til OnlineFilmBiks (main):
-Skal kunne tilgå: en FilmTitel, en FilmDirector og en FilmBilletpris
+Skal kunne oprette: Titel objekt, Director objekt, Billetpris objekt
 
 Tests til FilmDirector:
 oprette en Director
