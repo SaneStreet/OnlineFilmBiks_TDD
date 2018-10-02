@@ -5,10 +5,15 @@ Skal kunne oprette: Titel objekt, Director objekt, Billetpris objekt
 
 Tests til FilmDirector:
 oprette en Director
+hente en Director
+ændre en Director
 
 Tests til FilmTitel:
-oprette en FilmTitel
+oprette en Titel
+hente en Titel
+ændre en Titel
 
 Tests til FilmBilletpris:
 oprette en Billetpris
-
+hente en Billetpris
+ændre en Billetpris
