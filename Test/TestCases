@@ -1,13 +1,17 @@
 Test Cases for OnlineFilmBiks
 
 Tests til OnlineFilmBiks (main):
-
+Tilføje Titlen på en film
+Tilføje Director til en film
+Tilføje en billetpris til en film
 
 Tests til FilmDirector:
-
+oprette en Director
+Director skal kunne tillægges film
 
 Tests til FilmTitel:
-
+oprette en FilmTitel
 
 Tests til FilmBilletpris:
-
+oprette en Billetpris
+Tillægge en pris til en film
