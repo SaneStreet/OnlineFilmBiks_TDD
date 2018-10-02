@@ -31,4 +31,18 @@ public class DirectorTest {
         //1. Assert
         assertEquals("J. J. Abrams", director);
     }
+
+    @Test
+    void changeDirector(){
+        //director = "Kylo Ren"
+
+        //3. Setup
+        Director dir = new Director("Steven Spielberg");
+
+        //2. Execution
+        String director = dir.setDirector("Kylo Ren");
+
+        //1. Assert
+        assertEquals("Kylo Ren", director);
+    }
 }
